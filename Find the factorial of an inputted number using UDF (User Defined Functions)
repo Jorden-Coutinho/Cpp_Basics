@@ -1,0 +1,22 @@
+#include <iostream.h>
+#include <conio.h>
+#include <iomanip.h>
+
+long double factorial(int a);
+
+void main(){
+clrscr();
+double n;
+long double fact;
+cin>>n;
+fact = factorial(n);
+cout<<"The factorial of inputted number is: "<<fact;
+}
+
+long double factorial(int x){
+long double f = 1;
+int i;
+for(i=x;i>=1;i--)
+f=f*i;
+return(f);
+}
