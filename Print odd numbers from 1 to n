@@ -4,10 +4,10 @@
 void main{
 clrscr();
 int n,r;
-r=0;
+r=1;
 cin>>n;
 while(r>=n){
 cout<<r;
-r=r-2;
+r=r+2;
 }
 }
