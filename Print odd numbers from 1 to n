@@ -1,1 +1,13 @@
-
+#include <iostream.h>
+#include <conio.h>
+#include <iomanip.h>
+void main{
+clrscr();
+int n,r;
+r=0;
+cin>>n;
+while(r>=n){
+cout<<r;
+r=r-2;
+}
+}
