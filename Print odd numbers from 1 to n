@@ -6,7 +6,7 @@ clrscr();
 int n,r;
 r=1;
 cin>>n;
-while(r>=n){
+while(r<=n){
 cout<<r;
 r=r+2;
 }
